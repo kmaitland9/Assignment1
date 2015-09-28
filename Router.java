@@ -73,6 +73,10 @@ public class Router {
 	}
 
 	void displayTable() {
+		
+		for(int i = 0; i < routingTable.length; i++){
+			System.out.println(routingTable[i] + "\n");
+		}
 
 	}
 
